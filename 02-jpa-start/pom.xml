@@ -1,0 +1,36 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.crackco</groupId>
+    <artifactId>02-jap-start</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+
+    <properties>
+        <!-- encoding settings -->
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+
+        <!-- hibernate version -->
+        <hibernate.version>4.3.10.Final</hibernate.version>
+        <!-- h2 database version -->
+        <h2db.version>1.4.187</h2db.version>
+    </properties>
+
+    <dependencies>
+        <!-- hibernate -->
+        <dependency>
+            <groupId>org.hibernate</groupId>
+            <artifactId>hibernate-entitymanager</artifactId>
+            <version>${hibernate.version}</version>
+        </dependency>
+
+        <!-- h2 database -->
+        <dependency>
+            <groupId>com.h2database</groupId>
+            <artifactId>h2</artifactId>
+            <version>${h2db.version}</version>
+        </dependency>
+    </dependencies>
+</project>
