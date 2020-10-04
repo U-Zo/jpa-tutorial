@@ -14,3 +14,4 @@ Java로 Back-end를 개발하며 데이터 베이스 연동을 위해 JPA 프레
 
 - [x] [JPA 소개](https://www.notion.so/JPA-580898a5ecd14da1856882f56fe263d1)
 - [x] [JPA 시작](https://www.notion.so/JPA-282f1bfa8af84f9297ddcdc3affd4d83)
+- [x] [영속성](https://velog.io/@crackco/JPA-%EA%B8%B0%EC%B4%88-%EB%B6%80%EC%88%98%EA%B8%B0-%EC%98%81%EC%86%8D%EC%84%B1)
